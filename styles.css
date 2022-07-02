@@ -1,0 +1,53 @@
+body
+{
+  background: #202020;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+button
+{
+  width: 100px;
+  height: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff #333 #333 #fff;
+  border-radius: 50px;
+  background: #444;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+button:active
+{
+  background: #333;
+  border-color: #333 #fff #fff #333;
+}
+.sw-component
+{
+  display:inline-block;
+  font-family:Lucida Console;
+}
+#TIME
+{
+  font-family:Lucida Console;
+}
+#stopwatch
+{
+  font-size: 34pt;
+  position: absolute;
+  top: 40%; left: 50%;
+  transform: translate(-50%, -55%);
+}
+#buttons
+{
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  transform: translate(-23%, -45%);
+}
+#buttons li
+{
+  display: inline;
+  padding-left: 10px;
+}
